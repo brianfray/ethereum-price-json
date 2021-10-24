@@ -1,0 +1,1 @@
+INSERT INTO price (dates, open, high, low, close, adj_close, volume) VALUES (?, ?, ?, ?, ?, ?, ?)

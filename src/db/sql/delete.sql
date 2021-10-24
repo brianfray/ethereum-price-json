@@ -1,0 +1,1 @@
+DELETE FROM price ORDER by id limit 1
