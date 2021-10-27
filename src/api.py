@@ -23,7 +23,6 @@ def price():
 	""" Return JSON """
 	db = get_db()
 	# Convert to dictionary
-	print(type(dict_factory))
 	db.row_factory = dict_factory
 	# List of price data
 	with current_app.open_resource('db/sql/query.sql') as f:
